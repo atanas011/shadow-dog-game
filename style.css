@@ -1,24 +1,19 @@
-body {
-    background: black;
-}
-
-#container {
+#canvas1,
+#canvas2,
+#canvas3,
+#canvas4 {
+    border: 2px solid orange;
     position: absolute;
-    width: 800px;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    font-size: 25px;
 }
 
-#canvas {
-    position: relative;
+#canvas2 {
+    left: 276px;
 }
 
-#slider {
-    width: 100%;
+#canvas3 {
+    left: 545px;
 }
 
-p {
-    color: white;
+#canvas4 {
+    left: 814px;
 }
