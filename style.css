@@ -1,19 +1,8 @@
-#canvas1,
-#canvas2,
-#canvas3,
-#canvas4 {
-    border: 2px solid orange;
+#canvas {
+    border: 3px solid black;
+    background: black;
     position: absolute;
-}
-
-#canvas2 {
-    left: 276px;
-}
-
-#canvas3 {
-    left: 545px;
-}
-
-#canvas4 {
-    left: 814px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
