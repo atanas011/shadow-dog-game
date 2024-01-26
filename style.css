@@ -1,19 +1,24 @@
-#canvas {
-    border: 5px solid black;
+body {
+    background: black;
+}
+
+#container {
     position: absolute;
+    width: 800px;
+    transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 25px;
 }
 
-.controls {
-    position: absolute;
-    z-index: 10;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
+#canvas {
+    position: relative;
 }
 
-.controls select option {
-    font-size: 15px;
+#slider {
+    width: 100%;
+}
+
+p {
+    color: white;
 }

@@ -1,5 +1,6 @@
-### Sprite Animation
+### Parallax Backgrounds
 
 - Clone repo to local
 - Open index.html in browser
-- Choose animation
+- Zoom out to 80% view
+- Change Game speed
