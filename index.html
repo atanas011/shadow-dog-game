@@ -5,17 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
+    <!-- Goole Fonts > Search > [font] > Select > copy/paste link & css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <canvas id="canvas"></canvas>
-    <img src="img/player.png" id="playerImg">
-    <img src="img/background.png" id="backgroundImg">
-    <img src="img/enemy.png" id="enemyImg">
-    <button id="fullscreenBtn">Toggle Fullscreen</button>
 
-    <script src="script.js"></script>
+    <img src="assets/player.png" id="player">
+
+    <img src="assets/forest/layer-1.png" id="layer1">
+    <img src="assets/forest/layer-2.png" id="layer2">
+    <img src="assets/forest/layer-3.png" id="layer3">
+    <img src="assets/forest/layer-4.png" id="layer4">
+    <img src="assets/forest/layer-5.png" id="layer5">
+
+    <img src="assets/enemies/enemy_fly.png" id="enemy_fly">
+    <img src="assets/enemies/enemy_plant.png" id="enemy_plant">
+    <img src="assets/enemies/enemy_spider_big.png" id="enemy_spider_big">
+
+    <img src="assets/fire.png" id="fire">
+    <img src="assets/boom.png" id="collision">
+    <img src="assets/lives.png" id="lives">
+
+    <script src="main.js" type="module"></script>
 </body>
 
 </html>

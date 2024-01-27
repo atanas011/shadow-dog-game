@@ -9,24 +9,27 @@ body {
 }
 
 canvas {
-    border: 5px solid white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
+    border: 5px solid black;
+    position: absolute;
     max-width: 100%;
     max-height: 100%;
-}
-
-img {
-    display: none;
-}
-
-#fullscreenBtn {
-    position: absolute;
-    font-size: 20px;
-    padding: 10px;
-    top: 10px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    font-family: 'Creepster', system-ui;
+}
+
+#player,
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#layer5,
+#enemy_fly,
+#enemy_plant,
+#enemy_spider_big,
+#fire,
+#collision,
+#lives {
+    display: none;
 }
