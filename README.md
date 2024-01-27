@@ -1,5 +1,4 @@
-### Point & Shoot Game
+### Enemy Variety
 
 - Clone repo to local
-- Open index.html in browser > F11
-- (Re)Start game: F5
+- Open index.html in browser
